@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 90vh;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(55, 55, 255);
+    
+}
+#navbar{
+    display: flex;
+    background-color: rgb(55, 55, 255);
+    justify-content: space-evenly;
+    position: relative;
+    color: white;
+    
+}
+.navbar h1{
+    color: white;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    margin-left: 400px;
+    font-family: sans-serif;
+}
+.btn{
+    color: white;
+}
+.btn:hover{
+    background-color: darkgrey;
+    color: white;
+    padding: 5px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+.welcome{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.welcome h3{
+    color: white;
+    font-weight: bold;
+}
+.welcome h1{
+    color: white;
+}
+.welcome p{
+    color: white;
+}
+.something{
+    display: inline;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding-right: 300px;
+    font-size: larger;
+    padding: 10px;
+}
+.search{
+    display: inline;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding-right: 300px;
+    font-size: larger;
+    padding: 10px;
+    
+}
+.apple{
+    font-size: -200px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -40px;
+    
+}
+.apple1{
+    background-color: white;
+    border: 1px solid black;
+    padding: 60px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+.apple1 img{
+    display: inline;
+    width: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.apple2{
+        background-color: white;
+    border: 1px solid black;
+    padding: 60px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.apple2 img{
+    display: inline;
+    width: 60px;
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+.apple3{
+        background-color: white;
+    border: 1px solid black;
+    padding: 60px;
+    border-radius: 20px;
+ font-family: sans-serif;
+    font-weight: bolder;
+}
+.apple3 img{
+    display: inline;
+    width: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.apple4{
+    background-color: white;
+    border: 1px solid black;
+    padding: 60px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+.apple4 img{
+    display: inline;
+    width: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.mena{
+    float: right;
+    width: 350px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+.ok p{
+    z-index: 2;
+}
+
